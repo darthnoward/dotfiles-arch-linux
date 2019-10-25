@@ -40,4 +40,16 @@ volumeicon/
 xfce4-dict/
 yay/
 zathura/
+compton.conf*
+.gitignore
+kdenliverc
+manjaro-hello.json
+mimeapps.list
+pavucontrol.ini
+QtProject.conf
+Typora__cly_event.json
+Typora__cly_id.json
+Typora__cly_queue.json
+user-dirs.dirs
+user-dirs.locale
 
