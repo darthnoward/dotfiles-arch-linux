@@ -1,0 +1,25 @@
+#! /usr/bin/env sh 
+# A shell script written by Darth Noward (https://darthnoward.com)
+# Put in package name to check if it's installed in the system.
+
+while getopts "h" OPTION
+do 
+    case $OPTION in 
+        h)
+            printf "This is a shell script written by Darth Noward.\nPut in package names as arguments to check if it's installed in the system.\n"
+            exit 
+            ;;
+        *)
+            printf "No such flag option as \"$1\", please try testpkg -h.\n"
+            exit 
+            ;;
+    esac 
+done
+for var in "$@"
+do 
+    if command -v $var > /dev/null; then
+    printf "$var is already installed\n\nIt is located in `which $var`.\n"
+    else
+    printf "$var is not installed\n\n"
+    fi 
+done 

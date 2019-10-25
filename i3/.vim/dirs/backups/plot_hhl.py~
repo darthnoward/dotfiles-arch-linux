@@ -1,0 +1,45 @@
+from numpy import *
+from matplotlib.pyplot import *
+def getarray(x1, x2):
+	return linspace(x1, x2 ,abs(x1-x2)*100)
+def check(a, b):
+	if (a > 500):
+		a = 500
+	if (b < -500):
+		b = -500
+	return a,b
+def plotfunc(x, y, a, b, state, temp):
+	a, b = check (a,b)
+	plot(x,y)
+	grid()
+	xlabel("x")
+	ylabel("y", rotation = 0)
+	if (x[0] ==0):
+		x[0] = x[1]
+	if (state == 1):
+		axis([x[0], x[len(x)-1], a, b])
+	if (state == 2):
+		axis([x[0], x[len(x)-1], double(temp[2]), b])
+	if (state == 3):
+		axis([x[0], x[len(x)-1], double(temp[2]), double(temp[3])])
+	show()
+print("This is a Python script for single variable plotting developed by He Haolan using numpy & matplotlib library.\nPlease input your domains (compulsory) and ranges (optional), separate by space.\ne.g. 10 11 12 13 stands for a domain of [10,11] and range of [12,13]")
+temp = input().split(' ')
+try:
+	x = getarray(int(temp[0]), int(temp[1]))
+except:
+	if (temp[0] == "I" and temp[1] == "love" and temp[2] == "you"):
+		print("I know.")
+	if (temp[0] == "iloveyou" or temp[0] == "Iloveu" or temp[0] == "Iloveyou" or temp[0] == "iloveyou"):
+		print("I know.")
+	exit();
+print("please input your function with respect to x in the format of Python expression: ")
+a = eval(input())
+print("Plotting....")
+if (len(temp)==2):
+	plotfunc(x, a, min(a), max(a), 1, temp )
+if (len(temp)==3):
+	plotfunc(x, a, min(a), max(a), 2, temp)
+if (len(temp)==4):
+	plotfunc(x, a, min(a), max(a), 3, temp)
+print("\nCopyright 2019 Darth Noward. All Rights Reserved.")

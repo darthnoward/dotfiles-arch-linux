@@ -1,0 +1,387 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/peach/
+	..
+1569585765
+'b
+	/home/noward/bin/
+	..
+1570610065
+'h
+	/home/noward/
+	..
+1570610065
+
+# Bookmarks:
+
+# TUI:
+al
+q1
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/noward
+	.ros
+8
+d/home/noward/.ros
+	rosdep
+2
+d/home/noward
+	.ssh
+9
+d/home/noward/.ssh
+	known_hosts
+1
+d/home/noward
+	.ssh
+9
+d/home
+	noward
+1
+d/home/noward
+	learning_tf
+11
+d/home/noward/learning_tf
+	..
+0
+d/home/noward
+	actionlib_tutorials
+9
+d/home
+	noward
+1
+d/home/noward
+	catkin_ws
+10
+d/home/noward/catkin_ws
+	..
+0
+d/tmp/mozilla_noward0
+	Solarized-Cyan_1.5.8.tar.gz
+1
+d/home/noward/Downloads
+	cropped-1920-1200-218980.jpg
+3
+d/home/noward
+	Downloads
+3
+d/home
+	noward
+1
+d/
+	home
+5
+d/home
+	noward
+1
+d/home/noward
+	Music
+4
+d/home/noward/Music
+	..
+0
+d/home/noward
+	Public
+6
+d/home/noward/Public
+	..
+0
+d/home/noward
+	Public
+6
+d/home
+	noward
+1
+d/home/noward
+	Pictures
+5
+d/home/noward/Pictures
+	wallpaper1.jpg
+3
+d/home/noward
+	Downloads
+3
+d/home/noward/Downloads
+	fontawesome-free-5.11.2-desktop
+2
+d/home/noward/Downloads/fontawesome-free-5.11.2-desktop
+	LICENSE.txt
+4
+d/home/noward/Downloads
+	nvidia
+3
+d/home/noward/Downloads/nvidia
+	..
+0
+d/home/noward/Downloads
+	nvidia
+3
+d/home/noward/Downloads/nvidia
+	sdkm_downloads
+1
+d/home/noward/Downloads/nvidia/sdkm_downloads
+	libnvidia-container-tools_0.9.0_beta.1_arm64.deb
+18
+d/home/noward/Downloads/nvidia
+	sdkm_downloads
+1
+d/home/noward/Downloads
+	nvidia
+3
+d/home/noward
+	Desktop
+1
+d/home/noward/Desktop
+	..
+0
+d/home/noward
+	Pictures
+5
+d/home/noward/Pictures
+	..
+0
+d/home/noward
+	nvidia
+15
+d/home/noward/nvidia
+	..
+0
+d/home/noward
+	Pictures
+5
+d/home/noward/Pictures
+	wallpaper1.jpg
+4
+d/home/noward
+	Pictures
+5
+d/home
+	noward
+1
+d/home/noward
+	Pictures
+5
+d/home/noward/Pictures
+	wallpaper1.jpg
+4
+d/home/noward
+	yay
+1
+d/home
+	noward
+1
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	bank_accounts.csv.zip
+5
+d/home/noward/shopee
+	bank_accounts.csv
+2
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	Screenshot_2019-10-20_12-46-52.png
+2
+d/home/noward/Pictures
+	wallpaper1.jpg
+1
+d/home/noward
+	Pictures
+3
+d/home
+	noward
+1
+d/home/noward
+	Pictures
+3
+d/home
+	noward
+1
+d/
+	bin
+0
+d/usr/share/backgrounds/archlinux
+	archlinux-underground.jpg
+17
+d/usr/share/backgrounds/xfce
+	xfce-blue.jpg
+1
+d/usr/share/backgrounds
+	xfce
+2
+d/usr/share
+	backgrounds
+10
+d/usr
+	..
+0
+d/
+	srv
+14
+d/srv
+	ftp
+1
+d/
+	srv
+14
+d/srv
+	ftp
+1
+d/srv/ftp
+	..
+0
+d/srv
+	http
+2
+d/srv/http
+	..
+0
+d/srv
+	http
+2
+d/
+	home
+4
+d/home
+	noward
+1
+d/home/noward
+	Pictures
+3
+d/home/noward/Pictures
+	wallpaper1.jpg
+1
+d/home/noward
+	Pictures
+3
+d/home/noward/Pictures
+	wallpaper1.jpg
+1
+d/home/noward
+	shopee
+5
+d/home/noward/shopee
+	devices.csv
+4
+d/home/noward
+	shopee
+5
+d/home/noward/shopee
+	credit_cards.csv
+3
+d/home/noward
+	st
+6
+d/home/noward/st
+	st
+8
+d/home/noward/Downloads/opencv-3.4.7-aur/build
+	configured
+5
+d/home/noward/Downloads/opencv-3.4.7-aur
+	CMakeLists.txt
+11
+d/home/noward/Downloads
+	opencv-3.4.7-aur
+4
+d/home/noward
+	Downloads
+2
+d/home
+	noward
+1
+d/
+	usr
+17
+d/usr
+	share
+9
+d/usr/share
+	backgrounds
+10
+d/usr/share/backgrounds
+	archlinux
+1
+d/usr/share/backgrounds/archlinux
+	archlinux-arrival.jpg
+4
+d/usr/share/backgrounds
+	archlinux
+1
+d/usr/share
+	archlinux
+5
+d/usr/share/archlinux
+	wallpaper
+1
+d/usr/share/archlinux/wallpaper
+	arch_paint_2_1920x1200.png
+16
+d
+
+# Right window history (oldest to newest):
+D/home/peach
+	..
+0
+D/home
+	peach
+1
+D/
+	bin
+0
+D
+
+# Command line history (oldest to newest):
+:!vim config
+:du -h
+:!du -hs
+:!python classify_red.py
+:a
+:!mv Arch\ Linux\ Space\ 01\ 4K.png wallpaper.png
+:!mv wallpaper.png wallpaper1.jpg
+:zip
+:w
+:Q
+:q
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+pwallpaper1.jpg
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/noward/.local/share/vifm/Trash/000_wallpaper1.jpg.zip
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/noward/.local/share/vifm/Trash/000_migrate.zip
+	/home/noward/migrate.zip
+t/home/noward/.local/share/vifm/Trash/000_notify-send.py
+	/home/noward/notify-send.py
+t/home/noward/.local/share/vifm/Trash/000_note.md
+	/home/noward/note.md
+t/home/noward/.local/share/vifm/Trash/000_wallpaper1.jpg.zip
+	/home/noward/Pictures/wallpaper1.jpg.zip
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0

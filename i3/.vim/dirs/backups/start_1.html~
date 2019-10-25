@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0"> 
+		<meta http-equiv = "refresh" content = "1800, http://bit.ly/2G6sYKF">
+		<title>Revenge of the Sith</title>
+		<style type = "text/css">
+			a {color: red; font-style: italic;}
+			h1 {color: yellow; background: black; text-align: center;}
+			h2 {color: white; font-style: italic;}
+			p {color: purple; text-indent: 190px; font-style: oblique; font-size: 28px;}
+			body {background-image: url(http://bit.ly/32oohp5);}
+		</style>
+		<link rel = "icon" type="image/x-icon" href="http://bit.ly/32nPGYe">
+	</head>
+	<body>
+		<audio autoplay controls>
+			<source src="http://darthnoward.com/Media/BGM/kirameki.mp3">
+		</audio>
+		<h1> Hello there! </h1>
+		<img alt = "Hello there" src = "http://bit.ly/2NJUkML" width="512px" height="288px">
+		<p> hello there </p>
+		<hr>
+		<img src = "http://bit.ly/32lkVCT" width="512px" height="288px">
+		<h1> General Kenobi! </h1>
+		<hr>
+		<hr>
+		<h2> Go fucking watching Anakin vs Obiwan <a href = "http://bit.ly/2G6sYKF" target="_blank"> here</a>!!</h2>
+	</body>
+</html>

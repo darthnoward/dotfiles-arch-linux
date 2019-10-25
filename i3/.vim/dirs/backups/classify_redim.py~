@@ -1,0 +1,73 @@
+#!/Users/darthnoward/anaconda3/bin/python
+import cv2
+import numpy as np
+
+def nothing():    # dummy function
+    pass
+    
+capture = cv2.VideoCapture(1)
+
+kernel = np.ones((5,5),np.float32)/25   # just a 5 by 5 simple kernel
+
+cv2.namedWindow('Video',cv2.WINDOW_NORMAL)
+cv2.namedWindow('panel',cv2.WINDOW_NORMAL)
+# cv2.namedWindow('Video1',cv2.WINDOW_NORMAL)
+
+cv2.createTrackbar("h - l", "panel", 168, 255, nothing)
+cv2.createTrackbar("h - h", "panel", 186, 255, nothing)
+cv2.createTrackbar("s - l", "panel", 153, 255, nothing)
+cv2.createTrackbar("s - h", "panel", 196, 255, nothing)
+cv2.createTrackbar("v - l", "panel", 31, 255, nothing)
+cv2.createTrackbar("v - h", "panel", 181, 255, nothing)  # create sliders
+
+while capture.isOpened():
+    ret, frame = capture.read()
+    hsv = cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)        # get frame and convert to HSV colorspace
+    
+    hl = cv2.getTrackbarPos("h - l","panel")
+    sl = cv2.getTrackbarPos("s - l","panel")
+    vl = cv2.getTrackbarPos("v - l","panel")
+    hh = cv2.getTrackbarPos("h - h","panel")
+    sh = cv2.getTrackbarPos("s - h","panel")
+    vh = cv2.getTrackbarPos("v - h","panel")            # acquire value from sliders
+
+    
+    lower_end = np.array([hl,sl,vl])
+    higher_end = np.array([hh,sh,vh])                    # set mask value
+    
+    mask = cv2.inRange(hsv, lower_end, higher_end)        # create mask
+    
+    # smooth
+    # smoothed = cv2.filter2D(res, -1, kernel)     
+    
+    
+    # blur
+    # blur = cv2.GaussianBlur(res,(5,5),0)
+    # median = cv2.MedianBlur(res,5)
+    # bilateral = cv2.bilateralFilter(res,15,75,75)
+        
+    # opening = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
+    closing = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)    # some methods for improving output
+    
+    
+    # display frame where only where mask exists 
+    res = cv2.bitwise_and(frame,frame, mask = closing)            # merge mask and original frame
+    
+    
+    cv2.resizeWindow('Video', 1200, 675)
+    cv2.resizeWindow('panel', 900, 250)
+    cv2.imshow('Video',res)                                        # resize window properly and display video
+    print(hl,hh, sl,sh,vl,vh)
+    
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+    if not ret:
+        break                                                       # wait for "q" key to break
+
+capture.release()
+file_output = open("data.txt", "a")
+output = "\n"+str(hl)+" "+str(hh)+" "+str(sl)+" "+str(sh)+" "+str(vl)+" "+str(vh)
+file_output.write(output)
+file_output.close()
+cv2.destroyAllWindows()                                            # kill window and write output
+

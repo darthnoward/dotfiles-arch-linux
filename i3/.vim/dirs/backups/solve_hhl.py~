@@ -1,0 +1,12 @@
+from sympy import *
+var('x')
+print('This is a Python script for solving single variable equation using Sympy library.\nPlease input your equation:')
+a = eval(input())
+s = solve(a)
+if (len(s) == 0):
+	print("No solution it appears...")
+	exit()
+b = len(s)
+for i in range(b):
+    print("X" + str(i+1) + " = " + str(s[i]), end = ", ")
+print('\n\nCopyright 2019 Darth Noward. Alrights reserved.')

@@ -1,0 +1,3 @@
+i = 'https://www.bilibili.com/video/av29885002?from=search&seid=6937004698062348161'
+output = ''
+print(i[77])

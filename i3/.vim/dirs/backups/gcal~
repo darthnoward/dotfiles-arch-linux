@@ -1,0 +1,48 @@
+#!/bin/bash
+
+file="google-calendar.desktop"
+dir="/usr/share/applications"
+
+lines="[Desktop Entry]
+Name=Google Calendar
+Icon=office-calendar
+Exec=chromium --app=https://calendar.google.com/calendar/render?pli=1#main_7 --user-data-dir=.config/google-calendar
+StartupNotify=true
+Type=Application
+Version=1.0
+Categories=Office"
+
+
+main () {
+    changeToDir "$dir"
+    removeFile "$file"
+    addLines "$lines" "$file"
+    echo Finished
+}
+
+
+addLines () {
+    for line in "$1"; do
+        echo "$line" | sudo tee --append "$2" > /dev/null
+    done
+}
+
+
+changeToDir () {
+    if [ ! -d "$1" ]; then
+        (>&2 echo "ERROR: $1 doesn't exist")
+        exit 1
+    fi
+
+    cd "$1"
+}
+
+
+removeFile () {
+    if [ -f "$1" ]; then
+        sudo rm "$1"
+    fi
+}
+
+
+main

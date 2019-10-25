@@ -1,0 +1,100 @@
+5,v
+true,v
+opacity-rule = ["85:class_g = 'Xfce4-terminal'"],V
+id ,v
+-,v
+start,v
+no,v
+--,v
+20,v
+#include <sys/ioctl.h> //ioctl() and TIOCGWINSZ// ...struct winsize size;ioctl(STDOUT_FILENO, TIOCGWINSZ, &size);,V
+ ,v
+         \ convert -identify %f -verbose /dev/null,V
+cpu,v
+10,v
+20 ,v
+,v
+ ,v
+command=~/.local/bin/statusbar/$BLOCK_NAMEseparator_block_width=15markup=pango[record]command=cat /tmp/recordingiconinterval=oncesignal=9[music]label=🎼interval=oncesignal=11[news]label=📰interval=oncesignal=6#[iplocate]#interval=30[pacpackages]label=📦interval=oncesignal=8[torrent]interval=20signal=7[weather]interval=18000signal=5[mailbox]label=📬interval=180signal=12#[memory]#interval=30#label=🧠#[cpu]#interval=15#label=💻[volume]interval=once,V
+command=~/.local/bin/statusbar/$BLOCK_NAMEseparator_block_width=15markup=pango[record]command=cat /tmp/recordingiconinterval=oncesignal=9[music]label=🎼interval=oncesignal=11[news]label=📰interval=oncesignal=6#[iplocate]#interval=30[pacpackages]label=📦interval=oncesignal=8[torrent]interval=20signal=7[weather]interval=18000signal=5[mailbox]label=📬interval=180signal=12#[memory]#interval=30#label=🧠#[cpu]#interval=15#label=💻[volume]interval=oncesignal=10#[disk]#interval=60#command=disk /#[disk]#interval=60#command=disk /home 🏠[battery]command=battery BAT0interval=5[clock]label=📅interval=30[internet]interval=10[help]interval=once,V
+,v
+4,v
+1,v
+set $other1 "5:",V
+set $other1 "4:",V
+                quit_message,V
+#,v
+Xft.dpi: 120,V
+for_window [class="Spotify"] move to workspace $music,V
+assign [class="Spotify"] $music,V
+assign [class="Spotify"] $musicassign [instance="Spotify"] $musicassign [title="Spotify"] $musicfor_window [class="Spotify"] move to workspace $music#,v
+,v
+,v
+☻,v
+Music,v
+bindsym XF86AudioPlay exec playerctl play,V
+bindsym XF86AudioPause exec playerctl pause,V
+bindsym XF86AudioPrev exec playerctl previous,V
+bindsym XF86AudioNext exec playerctl next,V
+assign [class="Spotify"] workspace 4 ,V
+bindsym XF86AudioPrev exec spotify_ctrl play,V
+# Collect DBUS_SESSION_BUS_ADDRESS from running process,V
+#http://ubuntuforums.org/showthread.php?t=1797848,V
+2,v
+assign [class="Firefox"] workspace 2,V
+bindsym $mod+Return exec i3-sensible-terminal,V
+,V
+for_window [class="Engrampa"] floating enable,V
+Powerline,v
+for ,v
+Mono ,v
+Sans ,v
+DejaVu ,v
+8,v
+    info "Icons" icons,V
+    info "Theme" theme,V
+    cv2.resizeWindow('Video1', 800, 450),V
+    cv2.resizeWindow('Video', 800, 450),V
+#!/Users/darthnoward/anaconda3/bin/python,V
+cv2.destroyAllWindows(),V
+capture.release(),V
+ [instance="XTerm" title="Dropdown"],v
+nmap <leader>e :Errors<CR>,V
+[instance="XTerm" title="Dropdown"],v
+bindsym [instance="XTerm" title="Dropdown"] Mod1+space move scratchpad,V
+bindsym Mod1+space exec xterm,V
+",v
+    xterm*foreground: cyan,V
+XTerm.vt100.faceName: Ubuntu Mono:size=17:antialias=false,V
+    xterm*loginshell: true,V
+    ! Use a nice truetype font and size by default... ,V
+    ! Every shell is a login shell by default (for inclusion of all necessary environment variables),V
+    ! I like a LOT of scrollback...,V
+    ! double-click to select whole URLs :D,V
+export TERM=xfce4-terminal,V
+X,v
+Engrampa,v
+hide_edge_borders both,V
+set $urgent-bg-color    #412359,V
+signal=6,V
+interval=once,V
+label=📰,V
+[news],V
+        modifier None,V
+        mode dock,V
+            separator #757575 },V
+        mode dock        modifier None,v
+order += "disk /",V
+exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/firefox',V
+src ,v
+alias ros="cd ~/catkin_ws/src && bash",V
+=,v
+NaturalScrolling,v
+False,v
+True,v
+export TERMINAL=xfce4-terminal,V
+exec ,v
+00FF00,v
+order += "volume master",V
+},V
+        device = "pulse: <alsa_output.pci-0000_00_1b.0.analog-stereo>",V

@@ -1,0 +1,81 @@
+#include <Servo.h>
+Servo servo1;
+#define in1 2
+#define in2 4
+#define pwm 5
+#define stby 3
+#define clk A0
+#define dt A1
+void start(int speed);
+void stop();
+void encoder();
+long encoderValue;
+long encoderValue1;
+long counter = 0;
+long counter1 = 0;
+unsigned long time1;
+int temp;
+void setup() {
+    servo1.attach(6);
+    pinMode(in1, OUTPUT);
+    pinMode(in2, OUTPUT);
+    pinMode(pwm, OUTPUT);
+    pinMode(stby, OUTPUT);
+    pinMode(clk, INPUT);
+    pinMode(dt, INPUT);
+    encoderValue = digitalRead(clk);
+    encoderValue1 = digitalRead(dt);
+    Serial.begin(9600);
+    time1 = millis();
+}
+
+void loop() {
+    /*servo1.write(105);
+      delay(1000);
+      servo1.write(255);
+      delay(1000);*/
+    /*if ((millis() - time1) < 10000) {
+      start(255);
+      temp = counter;
+    }
+    else start(50);
+    if ((millis() - time1) > 20000) {
+      stop();
+      Serial.print(temp);
+      Serial.println("\n");
+    }*/
+
+    encoder(digitalRead(clk));
+    encoder1(digitalRead(dt));
+    Serial.print("clk: ");
+    Serial.print(counter);
+    Serial.print("\n");
+    Serial.print("dt:  ");
+    Serial.print(counter1);
+    Serial.print("\n\n");
+
+}
+
+void start(int speed) {
+    digitalWrite(stby, HIGH);
+    analogWrite(pwm, speed);
+    digitalWrite(in1, HIGH);
+    digitalWrite(in2, LOW);
+}
+
+void stop() {
+    digitalWrite(stby, LOW);
+}
+void encoder(int read) {
+    if (read != encoderValue) {
+        counter++;
+        encoderValue = read;
+    }
+}
+
+void encoder1(int read) {
+    if (read != encoderValue1) {
+        counter1++;
+        encoderValue1 = read;
+    }
+}

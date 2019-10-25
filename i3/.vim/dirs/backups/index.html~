@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		<meta name = "author" content= " Darth Noward">
+		<title>Homework</title>
+		<style type = "text/css">
+			@font-face{font-family: and; src: url("../Media/fonts/android_7.ttf");}
+			@font-face{ font-family: PS; src: url("http://darthnoward.com/Media/fonts/ProductSans.ttf"); }
+			h1 {font-style: italic; text-align: center; font-family: Rabit;} 
+			p {color: Maroon; text-align: center;font-size: 28px; font-family:and;}
+			body {background: cyan;}
+		</style>
+	</head>
+	<body>
+		<p> Math 2 week 1 <a href="./HW1.pdf" download> download</a></p>
+		<p> Physics 2 week 1 <a href="./PHYHW1.pdf" download> download</a></p>
+		<p> HASS week 1 <a href="./HASSwk1_1.pdf" download> download1</a><a href="./HASSwk1_2.pdf" download> download2</a></p>
+	</body>
+</html>
+

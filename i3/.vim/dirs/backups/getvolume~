@@ -1,0 +1,4 @@
+#! /bin/sh
+pkill xfce4-notifyd
+notify-send """ $(pactl list sinks | awk '/Volume/ {print $5; exit}')
+by DarthNoward"""

@@ -1,0 +1,36 @@
+# added by Anaconda3 2019.03 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/darthnoward/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/Users/darthnoward/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/darthnoward/anaconda3/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/Users/darthnoward/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+  __GIT_PROMPT_DIR=$(brew --prefix)/opt/bash-git-prompt/share
+  GIT_PROMPT_ONLY_IN_REPO=1
+  source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
+fi
+alias ut="chrome-cli open https://www.youtube.com/feed/subscriptions && chrome-cli position 0 23 && chrome-cli size 1440 877"
+alias theone="clear && cmatrix"
+alias e="exit"
+alias iloveu="echo I Know | lolcat"
+alias watchstarwars='telnet towel.blinkenlights.nl'
+alias givemeafortune="fortune | cowsay | lolcat"
+alias alf='ssh root@45.32.114.223'
+alias datarecord="clear && cat ~/.data_record"
+alias ls='ls -G'
+alias checkdata='clear && vultr server show 27165098 | grep Cur | cowsay | lolcat'
+export VULTR_API_KEY=SRN4ENTX72PKQXM4K5RCXQHGEDCEVJVDIAGA
+# <<< conda init <<<
+RED="\[\033[0;31m\]"
+NC="\[\033[0;37m\]"
+export PS1="\[\e[31m\]BATCOMPUTER\[\e[36m\] \w \[\e[33m\]>\[\e[37m\] " 
+echo -e "${RED}IDENTITY CONFIRMED.\nBAT COMPUTER ONLINE.\nALL PROTOCOLS FULLY OPERATIONAL.\n${NC}"

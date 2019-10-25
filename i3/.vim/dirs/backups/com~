@@ -1,0 +1,3 @@
+#! /usr/bin/zsh
+ps aux | sort -nrk 3,3 | head -n 20 | awk 'BEGIN{print "Process" " " "CPU" " " "RAM" " " "PID"}; {print $11 " " $3 " " $4 " " $2}' | rev | cut -f 1 -d "/" | rev | column -t
+free -h | ack "Mem" | awk '{print "RAM:"}; {print $3 "/" $2}'
