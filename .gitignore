@@ -51,4 +51,7 @@ Typora__cly_id.json
 Typora__cly_queue.json
 user-dirs.dirs
 user-dirs.locale
-
+i3/.oh-my-zsh/  
+i3/.vim/  
+i3/.vimrc  
+i3/.zshrc
