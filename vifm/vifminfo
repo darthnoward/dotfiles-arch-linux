@@ -26,27 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/noward
-	.ros
-8
-d/home/noward/.ros
-	rosdep
-2
-d/home/noward
-	.ssh
-9
-d/home/noward/.ssh
-	known_hosts
-1
-d/home/noward
-	.ssh
-9
-d/home
-	noward
-1
-d/home/noward
-	learning_tf
-11
 d/home/noward/learning_tf
 	..
 0
@@ -324,8 +303,29 @@ d/usr/share/archlinux
 	wallpaper
 1
 d/usr/share/archlinux/wallpaper
-	arch_paint_2_1920x1200.png
-16
+	arch_paint_2_1440x900.png
+12
+d/usr/share/archlinux
+	wallpaper
+1
+d/usr/share
+	archlinux
+5
+d/usr
+	share
+9
+d/
+	home
+4
+d/home
+	noward
+1
+d/home/noward
+	Pictures
+3
+d/home/noward/Pictures
+	wallpaper2.jpg
+2
 d
 
 # Right window history (oldest to newest):

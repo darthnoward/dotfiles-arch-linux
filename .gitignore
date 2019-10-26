@@ -40,7 +40,6 @@ volumeicon/
 xfce4-dict/
 yay/
 zathura/
-compton.conf*
 .gitignore
 kdenliverc
 manjaro-hello.json
