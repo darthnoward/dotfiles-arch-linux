@@ -51,16 +51,16 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = fixed:pixelsize=12;1
+font-0 = "Product Sans:pixelsize=16;1"
 font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
 font-2 = siji:pixelsize=12;1
 font-3 = "Font Awesome 5 Free:style=Regular:pixelsize=16;1"
 font-4 = "Font Awesome 5 Brands:pixelsize=16;1"
 
 
-modules-left = i3 xwindow
+modules-left = i3 meme xwindow
 modules-center = 
-modules-right = pulseaudio memory cpu wlan battery temperature date 
+modules-right = spotify pulseaudio memory cpu wlan battery temperature date 
 
 tray-position = right
 tray-padding = 2
@@ -82,7 +82,7 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:30:...%
+label = %title:0:40:...%
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -189,7 +189,7 @@ label-song-ellipsis = true
 type = internal/xbacklight
 
 format = <label> <bar>
-label = BL
+label = Brightness
 
 bar-width = 10
 bar-indicator = |
@@ -281,7 +281,7 @@ label = %date% %time%
 type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
-label-volume = VOL %percentage%%
+label-volume = Vol %percentage%%
 label-volume-foreground = ${root.foreground}
 
 label-muted = 🔇 muted
@@ -346,7 +346,7 @@ format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-underline = ${self.format-charging-underline}
+format-full-underline = #0ef741
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
@@ -426,3 +426,18 @@ margin-top = 0
 margin-bottom = 0
 
 ; vim:ft=dosini
+[module/meme]
+type = custom/script
+format = <label>
+exec = echo -e "I USE ARCH BTW"
+label-foreground = #07e8fc
+label-underline = #07e8fc
+click-left = "st"
+
+[module/spotify]
+type = custom/script
+format = <label>
+exec = ~/.config/polybar/spotify.sh
+label-foreground = #dfdfdf
+label-underline = #4e2151
+click-left = i3-msg workspace number 10 

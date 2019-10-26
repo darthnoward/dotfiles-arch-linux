@@ -200,7 +200,7 @@ bindsym $mod+Shift+minus exec i3-msg gaps inner all minus 3
 # }
 # }
 # exec --no-startup-id xterm -T "Dropdown"
-for_window [class="^.*"] border pixel 5
+for_window [class="^.*"] border pixel 4
 for_window [class="Engrampa"] floating enable
 for_window [class="Xfce4-screenshooter"] floating enable
 for_window [class="XTerm" title="Dropdown"] floating enable
@@ -211,7 +211,7 @@ bindsym  Mod1+space [instance="XTerm" title="Dropdown"] move scratchpad
 bindsym Control+space  [instance="XTerm" title="Dropdown"] scratchpad show
 gaps inner 15
 gaps outer 0 
-border_radius 15
+border_radius 10
 exec_always compton -b --config ~/.config/compton.conf
 exec_always xrandr --output eDP1 --mode 1920x1200
 exec_always feh --bg-fill /usr/share/backgrounds/archlinux/archlinux-underground.jpg
