@@ -180,6 +180,7 @@ exec --no-startup-id xfce4-power-manager # if desired - handles brightness keys,
 exec --no-startup-id xfce4-volumed # if desired - handles volume keys
 bindsym $mod+r mode "resize"
 bindsym XF86AudioPlay exec playerctl pause
+bindsym $mod+p exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous

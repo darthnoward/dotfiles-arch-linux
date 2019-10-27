@@ -1,7 +1,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export TERM=xterm-256color
 ZSH_THEME="powerlevel9k/powerlevel9k"
-alias com="sh /usr/local/bin/com"
+alias com="sh /usr/local/bin/com | lolcat"
 alias theone="clear && cmatrix"
 alias e="exit"
 alias python=python3
@@ -44,3 +44,4 @@ source $ZSH/oh-my-zsh.sh
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time)
 alias ls='ls -F --color=auto'
+alias cleanup='sudo pacman -Rsn '

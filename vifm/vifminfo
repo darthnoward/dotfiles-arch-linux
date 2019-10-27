@@ -26,165 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home
-	noward
-1
-d/home/noward
-	Music
-4
-d/home/noward/Music
-	..
-0
-d/home/noward
-	Public
-6
-d/home/noward/Public
-	..
-0
-d/home/noward
-	Public
-6
-d/home
-	noward
-1
-d/home/noward
-	Pictures
-5
-d/home/noward/Pictures
-	wallpaper1.jpg
-3
-d/home/noward
-	Downloads
-3
-d/home/noward/Downloads
-	fontawesome-free-5.11.2-desktop
-2
-d/home/noward/Downloads/fontawesome-free-5.11.2-desktop
-	LICENSE.txt
-4
-d/home/noward/Downloads
-	nvidia
-3
-d/home/noward/Downloads/nvidia
-	..
-0
-d/home/noward/Downloads
-	nvidia
-3
-d/home/noward/Downloads/nvidia
-	sdkm_downloads
-1
-d/home/noward/Downloads/nvidia/sdkm_downloads
-	libnvidia-container-tools_0.9.0_beta.1_arm64.deb
-18
-d/home/noward/Downloads/nvidia
-	sdkm_downloads
-1
-d/home/noward/Downloads
-	nvidia
-3
-d/home/noward
-	Desktop
-1
-d/home/noward/Desktop
-	..
-0
-d/home/noward
-	Pictures
-5
-d/home/noward/Pictures
-	..
-0
-d/home/noward
-	nvidia
-15
-d/home/noward/nvidia
-	..
-0
-d/home/noward
-	Pictures
-5
-d/home/noward/Pictures
-	wallpaper1.jpg
-4
-d/home/noward
-	Pictures
-5
-d/home
-	noward
-1
-d/home/noward
-	Pictures
-5
-d/home/noward/Pictures
-	wallpaper1.jpg
-4
-d/home/noward
-	yay
-1
-d/home
-	noward
-1
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	bank_accounts.csv.zip
-5
-d/home/noward/shopee
-	bank_accounts.csv
-2
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	Screenshot_2019-10-20_12-46-52.png
-2
-d/home/noward/Pictures
-	wallpaper1.jpg
-1
-d/home/noward
-	Pictures
-3
-d/home
-	noward
-1
-d/home/noward
-	Pictures
-3
-d/home
-	noward
-1
-d/
-	bin
-0
-d/usr/share/backgrounds/archlinux
-	archlinux-underground.jpg
-17
-d/usr/share/backgrounds/xfce
-	xfce-blue.jpg
-1
-d/usr/share/backgrounds
-	xfce
-2
-d/usr/share
-	backgrounds
-10
-d/usr
-	..
-0
-d/
-	srv
-14
-d/srv
-	ftp
-1
-d/
-	srv
-14
-d/srv
-	ftp
-1
 d/srv/ftp
 	..
 0
@@ -326,6 +167,165 @@ d/
 d/lib
 	apr-util-1
 8
+d/
+	home
+4
+d/home
+	noward
+1
+d/home/noward
+	Pictures
+3
+d/home/noward/Pictures
+	wallpaper3.jpg
+3
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	classify_red.py
+4
+d/home/noward
+	Pictures
+3
+d/home/noward/Pictures
+	wallpaper4.jpg
+10
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	polybar-themes
+4
+d/home/noward/Downloads/polybar-themes
+	..
+0
+d/home/noward/Downloads
+	polybar-themes
+4
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	cv
+2
+d/home/noward/Downloads/cv
+	classify_red.py
+1
+d/home/noward/Downloads
+	Telegram Desktop
+1
+d/home/noward/Downloads/Telegram Desktop
+	proposal (2).pdf
+8
+d/home/noward/Downloads
+	Telegram Desktop
+1
+d/home/noward
+	st
+5
+d/home/noward/st
+	st-copyout
+9
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	hass.docx
+5
+d/home/noward
+	Pictures
+3
+d/home/noward/Pictures
+	Screenshot_2019-10-26_14-44-15.png
+6
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	hass.docx
+5
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	Telegram Desktop
+1
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	lost+found
+3
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	Telegram Desktop
+1
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	polybar-themes
+4
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	polybar-themes
+4
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	Telegram Desktop
+1
+d/home/noward/Downloads/Telegram Desktop
+	proposal (2).pdf
+8
+d/home/noward/Downloads
+	Telegram Desktop
+1
+d/home/noward
+	Downloads
+2
+d/home
+	noward
+1
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	Telegram Desktop
+1
+d/home/noward/Downloads/Telegram Desktop
+	telebotppt.pptx
+10
+d/home/noward/Downloads
+	polybar-themes
+4
+d/home/noward
+	Pictures
+3
+d/home/noward/Pictures
+	Screenshot_2019-10-21_12-43-12.png
+4
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	polybar-themes
+4
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	Telegram Desktop
+1
+d/home/noward/Downloads/Telegram Desktop
+	Rise of Millennial Socialism.pdf
+3
 d
 
 # Right window history (oldest to newest):
@@ -336,8 +336,8 @@ D/home
 	peach
 1
 D/
-	bin
-0
+	boot
+1
 D
 
 # Command line history (oldest to newest):
@@ -352,16 +352,18 @@ D
 :w
 :Q
 :q
+:!mkdir cv
 
 # Search history (oldest to newest):
 
 # Prompt history (oldest to newest):
 pwallpaper1.jpg
+parch-linux-wallpaper6.png
+parch-linux-wallpaper7.png
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/noward/.local/share/vifm/Trash/000_wallpaper1.jpg.zip
 
 # Directory stack (oldest to newest):
 
@@ -374,6 +376,16 @@ t/home/noward/.local/share/vifm/Trash/000_note.md
 	/home/noward/note.md
 t/home/noward/.local/share/vifm/Trash/000_wallpaper1.jpg.zip
 	/home/noward/Pictures/wallpaper1.jpg.zip
+t/home/noward/Downloads/.vifm-Trash-1000/000_-2147483648_-213980.jpg
+	/home/noward/Downloads/Telegram Desktop/-2147483648_-213980.jpg
+t/home/noward/Downloads/.vifm-Trash-1000/000_Archive.zip
+	/home/noward/Downloads/Telegram Desktop/Archive.zip
+t/home/noward/Downloads/.vifm-Trash-1000/000_Part2.SLDPRT
+	/home/noward/Downloads/Telegram Desktop/Part2.SLDPRT
+t/home/noward/Downloads/.vifm-Trash-1000/000_a.jpg
+	/home/noward/Downloads/Telegram Desktop/a.jpg
+t/home/noward/Downloads/.vifm-Trash-1000/000_install
+	/home/noward/Downloads/Telegram Desktop/install
 
 # State:
 f
