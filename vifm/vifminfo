@@ -26,255 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/srv/ftp
-	..
-0
-d/srv
-	http
-2
-d/srv/http
-	..
-0
-d/srv
-	http
-2
-d/
-	home
-4
-d/home
-	noward
-1
-d/home/noward
-	Pictures
-3
-d/home/noward/Pictures
-	wallpaper1.jpg
-1
-d/home/noward
-	Pictures
-3
-d/home/noward/Pictures
-	wallpaper1.jpg
-1
-d/home/noward
-	shopee
-5
-d/home/noward/shopee
-	devices.csv
-4
-d/home/noward
-	shopee
-5
-d/home/noward/shopee
-	credit_cards.csv
-3
-d/home/noward
-	st
-6
-d/home/noward/st
-	st
-8
-d/home/noward/Downloads/opencv-3.4.7-aur/build
-	configured
-5
-d/home/noward/Downloads/opencv-3.4.7-aur
-	CMakeLists.txt
-11
-d/home/noward/Downloads
-	opencv-3.4.7-aur
-4
-d/home/noward
-	Downloads
-2
-d/home
-	noward
-1
-d/
-	usr
-17
-d/usr
-	share
-9
-d/usr/share
-	backgrounds
-10
-d/usr/share/backgrounds
-	archlinux
-1
-d/usr/share/backgrounds/archlinux
-	archlinux-arrival.jpg
-4
-d/usr/share/backgrounds
-	archlinux
-1
-d/usr/share
-	archlinux
-5
-d/usr/share/archlinux
-	wallpaper
-1
-d/usr/share/archlinux/wallpaper
-	arch_paint_2_1440x900.png
-12
-d/usr/share/archlinux
-	wallpaper
-1
-d/usr/share
-	archlinux
-5
-d/usr
-	share
-9
-d/
-	home
-4
-d/home
-	noward
-1
-d/home/noward
-	Pictures
-3
-d/home/noward/Pictures
-	wallpaper3.jpg
-3
-d/home/noward
-	Pictures
-3
-d/home/noward/Pictures
-	wallpaper3.jpg
-3
-d/home/noward
-	text.txt
-7
-d/home
-	noward
-1
-d/home/noward
-	st
-6
-d/home
-	..
-0
-d/
-	lib
-5
-d/lib
-	CLucene
-1
-d/
-	lib
-5
-d/lib
-	apr-util-1
-8
-d/
-	home
-4
-d/home
-	noward
-1
-d/home/noward
-	Pictures
-3
-d/home/noward/Pictures
-	wallpaper3.jpg
-3
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	classify_red.py
-4
-d/home/noward
-	Pictures
-3
-d/home/noward/Pictures
-	wallpaper4.jpg
-10
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	polybar-themes
-4
-d/home/noward/Downloads/polybar-themes
-	..
-0
-d/home/noward/Downloads
-	polybar-themes
-4
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	cv
-2
-d/home/noward/Downloads/cv
-	classify_red.py
-1
-d/home/noward/Downloads
-	Telegram Desktop
-1
-d/home/noward/Downloads/Telegram Desktop
-	proposal (2).pdf
-8
-d/home/noward/Downloads
-	Telegram Desktop
-1
-d/home/noward
-	st
-5
-d/home/noward/st
-	st-copyout
-9
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	hass.docx
-5
-d/home/noward
-	Pictures
-3
-d/home/noward/Pictures
-	Screenshot_2019-10-26_14-44-15.png
-6
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	hass.docx
-5
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	Telegram Desktop
-1
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	lost+found
-3
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	Telegram Desktop
-1
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	polybar-themes
-4
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	polybar-themes
-4
 d/home/noward
 	Downloads
 2
@@ -326,6 +77,255 @@ d/home/noward/Downloads
 d/home/noward/Downloads/Telegram Desktop
 	Rise of Millennial Socialism.pdf
 3
+d/home/noward/Downloads
+	momobot_gazebo
+4
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	polybar-themes
+5
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	polybar-themes
+6
+d/home/noward
+	Downloads
+1
+d/home/noward/Downloads
+	Telegram Desktop
+1
+d/home/noward/Downloads/Telegram Desktop
+	Rise of Millennial Socialism.pdf
+4
+d/home/noward/Downloads
+	Telegram Desktop
+1
+d/home/noward/Downloads/Telegram Desktop
+	Rise of Millennial Socialism.pdf
+4
+d/home/noward/Downloads
+	hass.odt
+8
+d/home/noward
+	Videos
+3
+d/home/noward/Videos
+	kdenlive-renderqueue
+1
+d/home/noward
+	Downloads
+1
+d/home/noward/Downloads
+	momobot_gazebo
+5
+d/home/noward
+	text.txt
+11
+d/home
+	noward
+1
+d/home/noward
+	Downloads
+1
+d/home/noward/Downloads
+	message_node
+4
+d/home/noward/Downloads/message_node
+	..
+0
+d/home/noward/Downloads
+	message_node
+4
+d/home/noward/Downloads/message_node
+	CMakeLists.txt
+6
+d/home/noward/Downloads
+	message_node
+4
+d/home/noward
+	catkin_ws
+4
+d/home/noward/catkin_ws
+	src
+3
+d/home/noward/catkin_ws/src
+	assets
+1
+d/home/noward/catkin_ws/src/assets
+	..
+0
+d/home/noward/catkin_ws/src
+	message_node
+2
+d/home/noward/catkin_ws/src/message_node
+	src
+4
+d/home/noward/catkin_ws/src/message_node/src
+	..
+0
+d/home/noward/catkin_ws/src/message_node
+	src
+4
+d/home/noward/catkin_ws/src
+	message_node
+2
+d/home/noward/catkin_ws
+	src
+3
+d/home/noward
+	Downloads
+1
+d/home/noward/Downloads
+	Telegram Desktop
+1
+d/home/noward/Downloads/Telegram Desktop
+	Rise of Millennial Socialism.pdf
+4
+d/home/noward
+	Downloads
+1
+d/home
+	noward
+1
+d/
+	tmp
+16
+d/tmp
+	..
+0
+d/
+	usr
+17
+d/usr
+	local
+7
+d/usr/local
+	share
+8
+d/usr/local/share
+	zsh
+4
+d/usr/local/share/zsh
+	site-functions
+1
+d/usr/local/share/zsh/site-functions
+	_polybar
+1
+d/usr/local/share/zsh
+	site-functions
+1
+d/usr/local/share
+	zsh
+4
+d/usr/local
+	share
+8
+d/usr
+	share
+9
+d/usr/share
+	..
+0
+d/usr
+	src
+10
+d/usr/src
+	..
+0
+d/usr
+	lib
+4
+d/usr/lib
+	..
+0
+d/usr
+	include
+3
+d/usr/include
+	..
+0
+d/usr
+	include
+3
+d/usr/include
+	..
+0
+d/usr
+	include
+3
+d/
+	var
+18
+d/var
+	..
+0
+d/
+	var
+18
+d/var
+	..
+0
+d/
+	var
+18
+d/var
+	..
+0
+d/
+	var
+18
+d/home/noward/SD
+	ss
+4
+d/home/noward/SD/ss
+	Screen Shot 2019-04-09 at 1.39.25 PM.png
+39
+d/home/noward/SD
+	Movies
+2
+d/home/noward/SD/Movies
+	4月kiminouso
+1
+d/home/noward/SD/Movies/4月kiminouso
+	四月是你的谎言：第2话_番剧_bilibili_哔哩哔哩.flv
+2
+d/home/noward/SD/Movies
+	S03
+2
+d/home/noward/SD/Movies/S03
+	海报.jpg
+2
+d/home/noward/SD/Movies
+	S03
+2
+d/home/noward/SD/Movies/S03
+	海报.jpg
+2
+d/home/noward/SD/Movies
+	安娜贝尔.BD1024高清中英双字.mp4
+9
+d/home/noward/SD
+	Movies
+2
+d/home/noward
+	Scripts
+4
+d/home
+	noward
+1
+d/home/noward
+	Server
+5
+d/home/noward/Server
+	autostart
+7
+d/home/noward
+	Server
+5
 d
 
 # Right window history (oldest to newest):
@@ -351,8 +351,9 @@ D
 :zip
 :w
 :Q
-:q
 :!mkdir cv
+:!mkdir Videos
+:q
 
 # Search history (oldest to newest):
 
@@ -360,10 +361,12 @@ D
 pwallpaper1.jpg
 parch-linux-wallpaper6.png
 parch-linux-wallpaper7.png
+pSupergirl-S03
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/noward/Server/.vifm-Trash-1000/000_arch-config-1.zip
 
 # Directory stack (oldest to newest):
 
@@ -386,6 +389,14 @@ t/home/noward/Downloads/.vifm-Trash-1000/000_a.jpg
 	/home/noward/Downloads/Telegram Desktop/a.jpg
 t/home/noward/Downloads/.vifm-Trash-1000/000_install
 	/home/noward/Downloads/Telegram Desktop/install
+t/home/noward/.local/share/vifm/Trash/000_assets
+	/home/noward/catkin_ws/src/assets
+t/home/noward/.local/share/vifm/Trash/000_【石国鹏】第二次世界大战后到美苏冷战（上）字幕版_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili.flv
+	/home/noward/SD/Movies/【石国鹏】第二次世界大战后到美苏冷战（上）字幕版_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili.flv
+t/home/noward/.local/share/vifm/Trash/000_天使降临到我身边：第4话_番剧_bilibili_哔哩哔哩.mp4
+	/home/noward/SD/Movies/天使降临到我身边：第4话_番剧_bilibili_哔哩哔哩.mp4
+t/home/noward/Server/.vifm-Trash-1000/000_arch-config-1.zip
+	/home/noward/Server/arch-config-1.zip
 
 # State:
 f

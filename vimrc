@@ -12,6 +12,7 @@ autocmd BufWritePost ~/st/config.h !cd ~/st && sudo make install
 augroup pandoc_syntax
     au! BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
 augroup END
+autocmd BufWritePost *.ino !arduino-cli compile -b  arduino:avr:uno %:p:h
 let g:calendar_google_calendar = 1
 let g:calendar_google = 1
 let vim_plug_just_installed = 0                                     
@@ -265,7 +266,7 @@ let g:tagbar_autofocus = 1
 " NERDTree ----------------------------- 
 
 " toggle nerdtree display
-map <C-o> :NERDTreeToggle<CR>
+nmap <leader>f :NERDTreeToggle<CR>
 " open nerdtree with the current file selected
 nmap ,t :NERDTreeFind<CR>
 " don;t show these file types
@@ -415,6 +416,7 @@ let g:choosewin_overlay_enable = 1
 set guifont=Ubuntu\ Mono:h18
 " Airline ------------------------------
 autocmd FileType python nnoremap <buffer> <C-e> :exec '!python' shellescape(@%, 1)<cr>
+autocmd FileType arduino nnoremap <buffer> <C-e> :exec '!arduino-cli core update-index && sudo chown noward $(ls /dev/ttyUSB*) &&  arduino-cli upload -p $(ls /dev/ttyUSB*) --fqbn arduino:avr:uno %:p:h && echo DONE UPLOADING' <cr>
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'violet'
 let g:airline#extensions#tabline#enabled = 1

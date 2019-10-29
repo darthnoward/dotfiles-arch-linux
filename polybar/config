@@ -229,7 +229,7 @@ interface = wlp3s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
+format-connected-underline = #0ef741
 label-connected = %essid%
 
 format-disconnected =
@@ -283,8 +283,8 @@ type = internal/pulseaudio
 format-volume = <label-volume> <bar-volume>
 label-volume = Vol %percentage%%
 label-volume-foreground = ${root.foreground}
-
-label-muted = 🔇 muted
+label-underline = #8e4450
+label-muted =  muted
 label-muted-foreground = #666
 
 bar-volume-width = 10
@@ -303,7 +303,7 @@ bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
-
+bar-volume-underline = #8e4476
 [module/alsa]
 type = internal/alsa
 
@@ -339,10 +339,10 @@ adapter = ADP1
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging-underline = #71c47c
 
 format-discharging = <animation-discharging> <label-discharging>
-format-discharging-underline = ${self.format-charging-underline}
+format-discharging-underline = #ffb52a
 
 format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
@@ -432,7 +432,7 @@ format = <label>
 exec = echo -e "I USE ARCH BTW"
 label-foreground = #07e8fc
 label-underline = #07e8fc
-click-left = "st"
+click-left = "feh ~/Pictures/meme.png"
 
 [module/spotify]
 type = custom/script

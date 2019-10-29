@@ -2,6 +2,7 @@ set selection-clipboard clipboard
 set font "Product Sans 16"
 set inputbar-bg "#4e2151"
 set notification-bg "#4e2151" 
+set notification-fg "#dfdfdf" 
 set statusbar-bg "#4e2151" 
 set default-bg "#aa98a4"  
 set guioptions "s"

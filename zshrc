@@ -1,6 +1,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export TERM=xterm-256color
-ZSH_THEME="powerlevel9k/powerlevel9k"
+#ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME=powerlevel10k/powerlevel10k
 alias com="sh /usr/local/bin/com | lolcat"
 alias theone="clear && cmatrix"
 alias e="exit"
@@ -41,7 +42,33 @@ ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 source $ZSH/oh-my-zsh.sh
 # source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time)
+bindkey -v
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs )
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vi_mode root_indicator background_jobs time)
 alias ls='ls -F --color=auto'
-alias cleanup='sudo pacman -Rsn '
+alias cleanup='sudo pacman -Rsn  \$(pacman -Qdtq)'
+POWERLEVEL9K_HOME_ICON=' '
+POWERLEVEL9K_ETC_ICON='⚙'
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+# POWERLEVEL9K_SHORTEN_DELIMITER=""
+# POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
+# echo -e "                   -\`"
+# echo -e "                  .o+\`"
+# echo -e "                 \`ooo/"
+# echo -e "                \`+oooo:"
+# echo -e "               \`+oooooo:"
+# echo -e "               -+oooooo+:"
+# echo -e "             \`/:-:++oooo+:"
+# echo -e "            \`/++++/+++++++:"
+# echo -e "           \`/++++++++++++++:"
+# echo -e "          \`/+++ooooooooooooo/\`"
+# echo -e "         ./ooosssso++osssssso+\`"
+# echo -e "        .oossssso-\`\`\`\`/ossssss+\`"
+# echo -e "       -osssssso.      :ssssssso."
+# echo -e "      :osssssss/        osssso+++."
+# echo -e "     /ossssssss/        +ssssooo/-"
+# echo -e "   \`/ossssso+/:-        -:/+osssso+-"
+# echo -e "  \`+sso+:-\`                 \`.-/+oso:"
+# echo -e " \`++:.                           \`-/+/"
+# echo -e " .\`                                 \`"
+cat ~/.config/logo
