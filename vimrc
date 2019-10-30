@@ -8,11 +8,12 @@
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd BufNewFile,BufFilePre,BufRead *.md,*.txt set spell
-autocmd BufWritePost ~/st/config.h !cd ~/st && sudo make install
+autocmd BufWritePost ~/Scripts/st/config.h !cd ~/Scripts/st && sudo make install
+autocmd BufWritePost ~/Scripts/MY/*.sh !chmod +x %; ~/Scripts/MY/alias.sh $(ls ~/Scripts/MY | ack -v alias | ack ".+\.sh$")
 augroup pandoc_syntax
     au! BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
 augroup END
-autocmd BufWritePost *.ino !arduino-cli compile -b  arduino:avr:uno %:p:h
+autocmd BufWritePost *.ino !arduino-cli compile -b arduino:avr:uno %:p:h
 let g:calendar_google_calendar = 1
 let g:calendar_google = 1
 let vim_plug_just_installed = 0                                     

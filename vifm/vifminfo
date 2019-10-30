@@ -26,27 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	Telegram Desktop
-1
-d/home/noward/Downloads/Telegram Desktop
-	proposal (2).pdf
-8
-d/home/noward/Downloads
-	Telegram Desktop
-1
-d/home/noward
-	Downloads
-2
-d/home
-	noward
-1
-d/home/noward
-	Downloads
-2
 d/home/noward/Downloads
 	Telegram Desktop
 1
@@ -324,8 +303,29 @@ d/home/noward/Server
 	autostart
 7
 d/home/noward
-	Server
-5
+	SD
+3
+d/home/noward/SD
+	wallpaper.jpg
+4
+d/home/noward
+	SD
+3
+d/home
+	..
+0
+d/
+	home
+4
+d/home
+	noward
+1
+d/home/noward
+	Pictures
+3
+d/home
+	tmp
+2
 d
 
 # Right window history (oldest to newest):

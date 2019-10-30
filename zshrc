@@ -45,7 +45,6 @@ source $ZSH/oh-my-zsh.sh
 bindkey -v
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs )
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vi_mode root_indicator background_jobs time)
-alias ls='ls -F --color=auto'
 alias cleanup='sudo pacman -Rsn  \$(pacman -Qdtq)'
 POWERLEVEL9K_HOME_ICON=' '
 POWERLEVEL9K_ETC_ICON='⚙'
@@ -72,3 +71,5 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 # echo -e " \`++:.                           \`-/+/"
 # echo -e " .\`                                 \`"
 cat ~/.config/logo
+source ~/Scripts/aliassource.sh
+alias ls='ls -F --color=auto'
