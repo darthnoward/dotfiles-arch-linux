@@ -26,27 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/noward/Downloads
-	Telegram Desktop
-1
-d/home/noward/Downloads/Telegram Desktop
-	telebotppt.pptx
-10
-d/home/noward/Downloads
-	polybar-themes
-4
-d/home/noward
-	Pictures
-3
-d/home/noward/Pictures
-	Screenshot_2019-10-21_12-43-12.png
-4
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	polybar-themes
-4
 d/home/noward
 	Downloads
 2
@@ -324,8 +303,29 @@ d/home/noward
 	Pictures
 3
 d/home
-	tmp
-2
+	..
+0
+d/
+	home
+4
+d/home
+	noward
+1
+d/home/noward
+	Scripts
+5
+d/home/noward/Scripts
+	MY
+1
+d/home/noward/Scripts/MY
+	screenshot
+1
+d/home/noward/Scripts/MY/screenshot
+	ctd2.png
+3
+d/home/noward/Scripts/MY
+	alias.sh
+4
 d
 
 # Right window history (oldest to newest):

@@ -430,9 +430,9 @@ margin-bottom = 0
 type = custom/script
 format = <label>
 exec = echo -e "I USE ARCH BTW"
-label-foreground = #07e8fc
-label-underline = #07e8fc
-click-left = "feh ~/Pictures/meme.png"
+label-foreground = #00ace6
+label-underline = #00ace6
+click-left = "feh -x -Z  ~/Pictures/meme.png"
 
 [module/spotify]
 type = custom/script

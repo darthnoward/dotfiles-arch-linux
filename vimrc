@@ -1,15 +1,8 @@
-" Fisa-vim-config
-" http://fisadev.github.io/fisa-vim-config/
-" version: 8.3.1
-
-" ============================================================================
-" Vim-plug initialization
-" Avoid modify this section, unless you are very sure of what you are doing
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd BufNewFile,BufFilePre,BufRead *.md,*.txt set spell
 autocmd BufWritePost ~/Scripts/st/config.h !cd ~/Scripts/st && sudo make install
-autocmd BufWritePost ~/Scripts/MY/*.sh !chmod +x %; ~/Scripts/MY/alias.sh $(ls ~/Scripts/MY | ack -v alias | ack ".+\.sh$")
+autocmd BufWritePost ~/Scripts/MY/*.sh !chmod +x %; ~/Scripts/MY/alias.sh $(ls ~/Scripts/MY | ack -v alias | ack ".+\.sh$"); source /home/noward/Scripts/MY/alias
 augroup pandoc_syntax
     au! BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
 augroup END
@@ -30,14 +23,6 @@ if vim_plug_just_installed
     :execute 'source '.fnameescape(vim_plug_path)
 endif
 
-" Obscure hacks done, you can now modify the rest of the .vimrc as you wish :)
-
-" ============================================================================
-" Active plugins
-" You can disable or add new ones here:
-
-" this needs to be here, so vim-plug knows we are declaring the plugins we
-" want to use
 call plug#begin('~/.vim/plugged')
 Plug 'chrisbra/csv.vim'
 Plug 'itchyny/calendar.vim'
