@@ -331,6 +331,7 @@ filextype *.odt,*.doc,*.docx,*.xls,*.xlsx,*.odp,*.pptx libreoffice %f &
 fileviewer *.doc catdoc %c
 fileviewer *.docx, docx2txt.pl %f -
 
+filextype *fzz Fritzing %f & 2>/dev/null
 " TuDu files
 filetype *.tudu tudu -f %c
 

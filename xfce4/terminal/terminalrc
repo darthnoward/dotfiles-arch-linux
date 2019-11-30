@@ -37,16 +37,6 @@ DropdownAnimationTime=68
 DropdownAlwaysShowTabs=FALSE
 DropdownStatusIcon=FALSE
 BackgroundImageShading=0.550000
-ColorSelectionUseDefault=FALSE
-ColorSelection=#363639394848
-ColorBackground=#28282a2a3636
-ColorForeground=#f8f8f8f8f2f2
-ColorBold=#f4f47676c3c3
-ColorCursor=#0000c225ffff
-TabActivityColor=#5050fafa7b7b
-ColorPalette=rgb(0,0,0);rgb(154,64,70);rgb(144,121,179);rgb(146,152,99);rgb(223,102,221);rgb(154,83,130);rgb(58,77,91);rgb(139,139,140);rgb(77,77,77);rgb(255,85,85);rgb(202,169,250);rgb(241,250,140);rgb(113,236,144);rgb(255,121,198);rgb(139,233,253);rgb(248,248,242)
-ColorBoldUseDefault=FALSE
-ColorCursorUseDefault=FALSE
-ColorCursorForeground=#ffff00000000
+ColorPalette=#000000;#cc0000;#4e9a06;#c4a000;#3465a4;#75507b;#06989a;#d3d7cf;#555753;#ef2929;#8ae234;#fce94f;#739fcf;#ad7fa8;#34e2e2;#eeeeec
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 

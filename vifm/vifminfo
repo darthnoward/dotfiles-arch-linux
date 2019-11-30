@@ -26,306 +26,306 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	Telegram Desktop
-1
-d/home/noward/Downloads/Telegram Desktop
-	Rise of Millennial Socialism.pdf
-3
-d/home/noward/Downloads
-	momobot_gazebo
-4
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	polybar-themes
-5
-d/home/noward
-	Downloads
-2
-d/home/noward/Downloads
-	polybar-themes
-6
-d/home/noward
-	Downloads
-1
-d/home/noward/Downloads
-	Telegram Desktop
-1
-d/home/noward/Downloads/Telegram Desktop
-	Rise of Millennial Socialism.pdf
-4
-d/home/noward/Downloads
-	Telegram Desktop
-1
-d/home/noward/Downloads/Telegram Desktop
-	Rise of Millennial Socialism.pdf
-4
-d/home/noward/Downloads
-	hass.odt
-8
-d/home/noward
-	Videos
-3
-d/home/noward/Videos
-	kdenlive-renderqueue
-1
-d/home/noward
-	Downloads
-1
-d/home/noward/Downloads
-	momobot_gazebo
-5
-d/home/noward
-	text.txt
-11
-d/home
-	noward
-1
-d/home/noward
-	Downloads
-1
-d/home/noward/Downloads
-	message_node
-4
-d/home/noward/Downloads/message_node
-	..
-0
-d/home/noward/Downloads
-	message_node
-4
-d/home/noward/Downloads/message_node
-	CMakeLists.txt
-6
-d/home/noward/Downloads
-	message_node
-4
-d/home/noward
-	catkin_ws
-4
-d/home/noward/catkin_ws
-	src
-3
-d/home/noward/catkin_ws/src
-	assets
-1
-d/home/noward/catkin_ws/src/assets
-	..
-0
-d/home/noward/catkin_ws/src
-	message_node
-2
-d/home/noward/catkin_ws/src/message_node
-	src
-4
-d/home/noward/catkin_ws/src/message_node/src
-	..
-0
-d/home/noward/catkin_ws/src/message_node
-	src
-4
-d/home/noward/catkin_ws/src
-	message_node
-2
-d/home/noward/catkin_ws
-	src
-3
-d/home/noward
-	Downloads
-1
-d/home/noward/Downloads
-	Telegram Desktop
-1
-d/home/noward/Downloads/Telegram Desktop
-	Rise of Millennial Socialism.pdf
-4
-d/home/noward
-	Downloads
-1
-d/home
-	noward
-1
-d/
-	tmp
-16
-d/tmp
-	..
-0
-d/
-	usr
-17
-d/usr
-	local
-7
-d/usr/local
-	share
-8
-d/usr/local/share
-	zsh
-4
-d/usr/local/share/zsh
-	site-functions
-1
-d/usr/local/share/zsh/site-functions
-	_polybar
-1
-d/usr/local/share/zsh
-	site-functions
-1
-d/usr/local/share
-	zsh
-4
-d/usr/local
-	share
-8
-d/usr
-	share
-9
-d/usr/share
-	..
-0
-d/usr
-	src
-10
-d/usr/src
-	..
-0
-d/usr
-	lib
-4
-d/usr/lib
-	..
-0
-d/usr
-	include
-3
-d/usr/include
-	..
-0
-d/usr
-	include
-3
-d/usr/include
-	..
-0
-d/usr
-	include
-3
-d/
-	var
-18
-d/var
-	..
-0
-d/
-	var
-18
-d/var
-	..
-0
-d/
-	var
-18
-d/var
-	..
-0
-d/
-	var
-18
-d/home/noward/SD
-	ss
-4
-d/home/noward/SD/ss
-	Screen Shot 2019-04-09 at 1.39.25 PM.png
-39
-d/home/noward/SD
-	Movies
-2
-d/home/noward/SD/Movies
-	4月kiminouso
-1
-d/home/noward/SD/Movies/4月kiminouso
-	四月是你的谎言：第2话_番剧_bilibili_哔哩哔哩.flv
-2
-d/home/noward/SD/Movies
-	S03
-2
-d/home/noward/SD/Movies/S03
-	海报.jpg
-2
-d/home/noward/SD/Movies
-	S03
-2
-d/home/noward/SD/Movies/S03
-	海报.jpg
-2
-d/home/noward/SD/Movies
-	安娜贝尔.BD1024高清中英双字.mp4
-9
-d/home/noward/SD
-	Movies
-2
-d/home/noward
-	Scripts
-4
-d/home
-	noward
-1
-d/home/noward
-	Server
-5
-d/home/noward/Server
-	autostart
-7
-d/home/noward
-	SD
-3
-d/home/noward/SD
-	wallpaper.jpg
-4
-d/home/noward
-	SD
-3
-d/home
+d/etc
 	..
 0
 d/
 	home
 4
+d/home
+	noward
+1
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	Screenshot_2019-10-31_23-05-12.png
+14
+d/home/noward
+	8.png
+16
 d/home
 	noward
 1
 d/home/noward
 	Pictures
 3
-d/home
-	..
-0
-d/
-	home
-4
+d/home/noward/Pictures
+	Screenshot_2019-10-20_20-57-05.png
+3
+d/home/noward
+	Pictures
+3
 d/home
 	noward
 1
 d/home/noward
+	Pictures
+3
+d/home/noward/Pictures
+	Screenshot_2019-10-20_20-57-05.png
+3
+d/home/noward
 	Scripts
 5
+d/home/noward/Scripts
+	python
+2
+d/home/noward/Scripts/python
+	cv
+1
+d/home/noward/Scripts/python/cv
+	lock_screen
+3
+d/home/noward/Scripts/python/cv/lock_screen
+	image
+1
+d/home/noward/Scripts/python/cv/lock_screen/image
+	..
+0
+d/home/noward/Scripts/python/cv/lock_screen
+	arch.png
+2
+d/home/noward/Scripts/python/cv
+	..
+0
+d/home/noward/Scripts/python
+	cv
+1
+d/home/noward/Scripts
+	python
+2
+d/home/noward/Scripts/python
+	cv
+1
+d/home/noward/Scripts/python/cv
+	lock_screen
+3
+d/home/noward/Scripts/python/cv/lock_screen
+	main.py
+5
+d/home/noward/Scripts/python/cv
+	lock_screen
+3
+d/home/noward/Scripts/python
+	cv
+1
 d/home/noward/Scripts
 	MY
 1
 d/home/noward/Scripts/MY
-	screenshot
+	fuzzy_search.sh
+7
+d/home/noward/Scripts
+	python
+2
+d/home/noward/Scripts/python
+	cv
 1
-d/home/noward/Scripts/MY/screenshot
-	ctd2.png
+d/home/noward/Scripts/python/cv
+	lock_screen
 3
-d/home/noward/Scripts/MY
-	alias.sh
+d/home/noward/Scripts/python/cv/lock_screen
+	..
+0
+d/home/noward/Scripts/python/cv
+	haar_cascade
+1
+d/home/noward/Scripts/python/cv/haar_cascade
+	..
+0
+d/home/noward/Scripts/python/cv
+	haar_cascade
+1
+d/home/noward/Scripts/python
+	cv
+1
+d/home/noward/Scripts
+	python
+2
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	Telegram Desktop
+3
+d/home/noward/Downloads/Telegram Desktop
+	SAUVC 2020 Proposal.pptx
+6
+d/home/noward/Downloads
+	ArchCursorTheme
+1
+d/home/noward
+	Videos
+7
+d/home/noward/Videos
+	kdenlive-renderqueue
+1
+d/home/noward/Videos/kdenlive-renderqueue
+	..
+0
+d/home/noward/Videos
+	kdenlive-renderqueue
+1
+d/home/noward
+	Pictures
+3
+d/home/noward/Pictures
+	wallpaper2.jpg
+11
+d/home/noward/Scripts/python/cv/screenshot
+	HIMP - 2019-11-13 23:56:13.png
+1
+d/home/noward/Scripts/python/cv
+	screenshot
 4
+d/home/noward/Scripts/python
+	cv
+1
+d/home/noward/Scripts
+	python
+3
+d/home/noward
+	Downloads
+2
+d/home/noward/Downloads
+	screenshot
+10
+d/home/noward/Downloads/screenshot
+	HIMP - 2019-11-14 13:56:21.png
+2
+d/home/noward/Downloads
+	screenshot
+9
+d/home/noward
+	Downloads
+3
+d/home
+	noward
+1
+d/home/noward
+	Downloads
+3
+d/home/noward/Downloads
+	screenshot
+9
+d/home/noward
+	Downloads
+4
+d/home/noward/Downloads
+	Screenshot_2019-10-31_23-05-12.png
+11
+d/home/noward
+	arch-pape-maker
+10
+d/home/noward/arch-pape-maker
+	..
+0
+d/home/noward
+	arch-pape-maker
+10
+d/home/noward/arch-pape-maker
+	arch.png
+4
+d/home/noward
+	Downloads
+4
+d/home/noward/Downloads
+	hass assignment 2 term 2.docx.pdf
+12
+d/home/noward
+	Downloads
+4
+d/home/noward/Downloads
+	Screenshot_2019-10-31_23-05-12.png
+11
+d/home/noward
+	Documents
+3
+d/home/noward/Documents
+	Untitled 1.odt
+2
+d/home/noward
+	Downloads
+4
+d/home/noward/Downloads
+	Arduino
+2
+d/home/noward
+	Documents
+3
+d/home/noward/Documents
+	Untitled 1.odt
+2
+d/home/noward
+	Downloads
+4
+d/home/noward/Downloads
+	message_node
+7
+d/home/noward
+	fritzing
+12
+d/home/noward/fritzing
+	fritzing-parts
+1
+d/home/noward
+	fritzing
+12
+d/home/noward/fritzing
+	fritzing-parts
+1
+d/home/noward/fritzing/fritzing-parts
+	..
+0
+d/home/noward/fritzing
+	fritzing-parts
+1
+d/home/noward
+	catkin_ws
+11
+d/home
+	noward
+1
+d/home/noward
+	catkin_ws
+11
+d/home/noward/catkin_ws
+	build
+1
+d/home/noward
+	Documents
+3
+d/home/noward/Documents
+	Fritzing
+1
+d/home/noward/Documents/Fritzing
+	design_schem.png
+4
+d/home/noward/Documents
+	Fritzing
+1
+d/home/noward
+	Arduino
+1
+d/home/noward/Arduino
+	design
+1
+d/home/noward/Arduino/design
+	design.arduino.avr.uno.elf
+1
+d/home/noward/Arduino
+	design
+1
+d/home/noward/Arduino/design
+	design.arduino.avr.uno.elf
+1
+d/home/noward/Arduino
+	test
+3
+d/home/noward/Arduino/test
+	test.ino
+3
 d
 
 # Right window history (oldest to newest):
@@ -354,8 +354,10 @@ D
 :!mkdir cv
 :!mkdir Videos
 :q
+:!thunar .
 
 # Search history (oldest to newest):
+/back
 
 # Prompt history (oldest to newest):
 pwallpaper1.jpg
@@ -366,7 +368,7 @@ pSupergirl-S03
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/noward/Server/.vifm-Trash-1000/000_arch-config-1.zip
+""/home/noward/Downloads/.vifm-Trash-1000/000_HIMP - 2019-11-13 23:59:07.png
 
 # Directory stack (oldest to newest):
 
@@ -397,6 +399,8 @@ t/home/noward/.local/share/vifm/Trash/000_天使降临到我身边：第4话_番
 	/home/noward/SD/Movies/天使降临到我身边：第4话_番剧_bilibili_哔哩哔哩.mp4
 t/home/noward/Server/.vifm-Trash-1000/000_arch-config-1.zip
 	/home/noward/Server/arch-config-1.zip
+t/home/noward/Downloads/.vifm-Trash-1000/000_HIMP - 2019-11-13 23:59:07.png
+	/home/noward/Downloads/screenshot/HIMP - 2019-11-13 23:59:07.png
 
 # State:
 f

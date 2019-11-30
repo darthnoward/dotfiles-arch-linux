@@ -41,7 +41,7 @@
       <property name="&lt;Primary&gt;&lt;Shift&gt;at" type="string" value="xfce4-screenshooter -r"/>
       <property name="&lt;Alt&gt;space" type="string" value="xfce4-terminal --drop-down"/>
       <property name="&lt;Super&gt;space" type="string" value="/usr/bin/xfce4-popup-whiskermenu"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;&lt;Super&gt;s" type="string" value="/usr/bin/ss-qt5 -style=gtk"/>
+      <property name="&lt;Alt&gt;&lt;Super&gt;q" type="string" value="python3 /home/noward/Scripts/python/cv/lock_screen/main.py"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

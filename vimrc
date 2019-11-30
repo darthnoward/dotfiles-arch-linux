@@ -1,12 +1,16 @@
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd BufNewFile,BufFilePre,BufRead *.md,*.txt set spell
+autocmd BufNewFile,BufFilePre,BufRead *.md !i3-msg move to workspace 2:  > /dev/null && i3-msg workspace 2:  > /dev/null
 autocmd BufWritePost ~/Scripts/st/config.h !cd ~/Scripts/st && sudo make install
-autocmd BufWritePost ~/Scripts/MY/*.sh !chmod +x %; ~/Scripts/MY/alias.sh $(ls ~/Scripts/MY | ack -v alias | ack ".+\.sh$"); source /home/noward/Scripts/MY/alias
+autocmd BufWritePost ~/Scripts/MY/*.sh !chmod +x %; ~/Scripts/MY/alias.sh $(/usr/bin/ls ~/Scripts/MY | ack -v alias | ack ".+\.sh$"); source /home/noward/Scripts/MY/alias
 augroup pandoc_syntax
     au! BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
 augroup END
 autocmd BufWritePost *.ino !arduino-cli compile -b arduino:avr:uno %:p:h
+autocmd FileType python nnoremap <buffer> <C-e> :exec '!python' shellescape(@%, 1)<cr>
+autocmd FileType sh nnoremap <buffer> <C-e> :exec '!chmod +x % && %:p'<cr>
+autocmd FileType arduino nnoremap <buffer> <C-e> :exec '!sudo chown noward $(ls /dev/ttyUSB*) &&  arduino-cli upload -p $(ls /dev/ttyUSB*) --fqbn arduino:avr:uno %:p:h && figlet DONE UPLOADING' <cr>
 let g:calendar_google_calendar = 1
 let g:calendar_google = 1
 let vim_plug_just_installed = 0                                     
@@ -64,6 +68,7 @@ Plug 'tpope/vim-surround'
 Plug 'Townk/vim-autoclose'
 " Indent text object
 Plug 'michaeljsmith/vim-indent-object'
+Plug 'luochen1990/rainbow'
 " Indentation based movements
 Plug 'jeetsukumaran/vim-indentwise'
 " Python autocompletion, go to definition.
@@ -305,6 +310,8 @@ let g:ctrlp_custom_ignore = {
 nmap <leader>e :Errors<CR>
 nmap <leader>r :MarkdownPreview<CR>
 nmap <leader>t :term<CR>
+
+let g:mkdp_auto_start = 1
 " check also when just opened the file
 " don't put icons on the sign column (it hides the vcs status icons of signify)
 let g:syntastic_enable_signs = 1
@@ -401,8 +408,6 @@ nmap  -  <Plug>(choosewin)
 let g:choosewin_overlay_enable = 1
 set guifont=Ubuntu\ Mono:h18
 " Airline ------------------------------
-autocmd FileType python nnoremap <buffer> <C-e> :exec '!python' shellescape(@%, 1)<cr>
-autocmd FileType arduino nnoremap <buffer> <C-e> :exec '!arduino-cli core update-index && sudo chown noward $(ls /dev/ttyUSB*) &&  arduino-cli upload -p $(ls /dev/ttyUSB*) --fqbn arduino:avr:uno %:p:h && echo DONE UPLOADING' <cr>
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'violet'
 let g:airline#extensions#tabline#enabled = 1
@@ -436,5 +441,6 @@ let g:airline_right_alt_sep = '|'
 let g:airline_symbols.branch = '⭠'
 let g:airline_symbols.readonly = '⭤'
 let g:airline_symbols.linenr = '⭡'
-set background=dark
+set background=dark 
+let g:rainbow_active = 1
 colorscheme dracula

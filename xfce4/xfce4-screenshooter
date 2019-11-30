@@ -1,6 +1,6 @@
 app=feh
 last_user=
-screenshot_dir=file:/home/noward/Scripts/MY/screenshot
+screenshot_dir=file:///home/noward/Scripts/python/cv/lock_screen/pre.png
 action=1
 delay=0
 region=1

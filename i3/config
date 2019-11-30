@@ -10,7 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 set $TERMINAL "st"
 set $mod Mod4
-set $term "1:"
+set $term "1:"
 set $music "10:"
 set $browser "2:"
 set $other "3:"
@@ -42,11 +42,13 @@ bindsym $mod+Return exec $TERMINAL
 bindsym $mod+Shift+m exec spotify
 # kill focused window
 bindsym $mod+Shift+q kill
-bindsym $mod+Ctrl+q exec i3lock-fancy -t "Type in password to unlock.\n\nOH I use $(uname -r) btw"
+bindsym $mod+Ctrl+q exec /home/noward/Scripts/python/cv/lock_screen/im.py
 bindsym $mod+Shift+s exec i3-sensible-terminal -e htop
-bindsym Mod1+Shift+2 exec xfce4-screenshooter
+bindsym $mod+Shift+t exec telegram-desktop
+bindsym Mod1+Shift+2 exec ~/Scripts/python/cv/screenshot/main.py
 bindsym $mod+Shift+f exec i3-sensible-terminal -e vifm
 bindsym $mod+Shift+b exec firefox 
+bindsym $mod+Shift+n exec i3-sensible-terminal -e irssi
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run -fn 'Product Sans-18' -sb '#9f78e1'
 # There also is the (new) i3-dmenu-desktop which only displays applications
@@ -88,8 +90,8 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+# bindsym $mod+s layout stacking
+# bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -211,11 +213,13 @@ for_window [class="XTerm" title="Dropdown"] move absolute position center
 for_window [window_role="About"] floating enable
 bindsym  Mod1+space [instance="XTerm" title="Dropdown"] move scratchpad
 bindsym Control+space  [instance="XTerm" title="Dropdown"] scratchpad show
+client.focused  #4c7899 #285577 #ffffff #2e9ef4 #00ace6
 gaps inner 15
 gaps outer 0 
 border_radius 10
-exec_always compton -b --config ~/.config/compton.conf
-exec_always xrandr --output eDP1 --mode 1920x1200
-exec_always feh --bg-fill /usr/share/backgrounds/archlinux/archlinux-underground.jpg
+exec_always picom --config ~/.config/picom.conf &
+exec_always xrandr --output eDP1 --mode 1920x1200 &
+# exec_always feh --bg-fill /usr/share/backgrounds/archlinux/archlinux-underground.jpg
+exec_always feh --bg-fill /usr/share/backgrounds/archlinux/archlinux-deep-aurora.jpg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always synclient VertScrollDelta=-113
